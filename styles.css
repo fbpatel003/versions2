@@ -1,0 +1,316 @@
+.firstPage{
+    height: 100vh;
+    background: transparent;
+}
+
+.firstPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,81,235,1) 0%, rgba(46,106,200,1) 50%, rgba(22,211,251,1) 100%);
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+.FPSVG{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+    fill: #f3f3fb;
+}
+
+.custom-nav{
+    margin-top: 20px;
+    position: sticky;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.btn-custom-start{
+    border: 1px solid blue;
+}
+
+.fp-col{
+    margin-top: 100px;
+    padding: 35px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300&display=swap');
+
+
+.fly{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+}
+
+.fly-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+.box-sign-up{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.btn-signup{
+    margin-top: 25px;
+    width: 70%;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,91,235,1) 0%, rgba(138,112,255,1) 50%, rgba(22,211,251,1) 100%);
+    border: 0px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+.secondPage{
+    height: 110vh;
+    background: transparent;
+    margin-top: 50px;
+}
+
+.secondPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3fb;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.SPSVG{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+    fill: #ffffff;
+}
+
+.featureBox{
+    margin: auto;
+}
+
+.feature-icon{
+    width: 50px;
+    height: auto;
+}
+
+.thirdPage{
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.thirdPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.fourthPage{
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.fourthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3fb;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.fifthPage{
+    height: 100vh;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fifthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.sixthPage{
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.sixthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3fb;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.planBox{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 100px;
+    padding: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.planBox:hover{
+    box-shadow: rgba(125, 181, 255, 0.25) 0px 54px 55px, rgba(122, 213, 255, 0.12) 0px -12px 30px, rgba(90, 255, 255, 0.12) 0px 4px 6px, rgba(116, 239, 255, 0.17) 0px 12px 13px, rgba(105, 255, 243, 0.09) 0px -3px 5px;
+}
+
+.seventhPage{
+    height: 100vh;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.seventhPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.eighthPage{
+    height: 100vh;
+}
+
+.eighthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,81,235,1) 0%, rgba(46,106,200,1) 50%, rgba(22,211,251,1) 100%);
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.fly-2{
+    font-size: 30px;
+}
+
+.ep-col{
+    vertical-align: middle;
+}
+
+.ninthPage{
+    padding-top: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+body{
+    width: 100vw;
+}
+
+.accordion-button::after {
+	background-image: url("./images/plus.svg");
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("./images/dash-lg.svg");
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #297bff;
+    border: 0px none #ffffff;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8ac2ff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #a3a3a3;
+  }
+  ::-webkit-scrollbar-track {
+    background: #002375;
+    border: 0px none #ffffff;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #00558a;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
