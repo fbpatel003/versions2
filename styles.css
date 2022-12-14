@@ -1,24 +1,6 @@
 
 
-.fourthPage {
-  height: 100vh;
-  margin-top: 150px;
-}
 
-.fourthPage::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #f3f3fb;
-  background-size: 100% 120%;
-  transform: rotate(-10deg) scale(1.2);
-  z-index: -1;
-  -webkit-transform: rotate(-5deg) scale(1.2);
-  -moz-transform: rotate(-10deg) scale(1.2);
-  -ms-transform: rotate(-10deg) scale(1.2);
-  -o-transform: rotate(-10deg) scale(1.2);
-}
 
 .fifthPage {
   height: 100vh;
@@ -275,6 +257,15 @@ background-color: #f3f3fb;
     background-color: white;
   }  
 
+  .fourthPage {
+    /* height: 100vh; */
+    /* height: auto; */
+    /* margin-top: 150px; */
+    background-color: #f3f3fb;
+    -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
+clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
+  }
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -304,8 +295,13 @@ background-color: #f3f3fb;
     margin-left: 15%;
     }
     .thirdPage{
-        height: auto;
+        height: 100vh;
     }
+    .fourthPage{
+        height: 130vh;
+        padding-top: 200px;
+    }
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -338,6 +334,10 @@ background-color: #f3f3fb;
   .thirdPage{
     height: 50vh;
   }
+  .fourthPage{
+    height: 80vh;
+    padding-top: 200px;
+}
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -364,6 +364,10 @@ background-color: #f3f3fb;
     margin-left: 20px;
     }
     .thirdPage{
-        height: auto;
+        height: 70vh;
+    }
+    .fourthPage{
+        height: 110vh;
+        padding-top: 150px;
     }
 }
