@@ -1,30 +1,9 @@
 .firstPage{
-    height: 100vh;
-    background: transparent;
-}
-
-.firstPage::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,81,235,1) 0%, rgba(46,106,200,1) 50%, rgba(22,211,251,1) 100%);
-    background-size: 100% 120%;
-    transform: rotate(-10deg) scale(1.2);
-    z-index: -1;
-    -webkit-transform: rotate(-5deg) scale(1.2);
-    -moz-transform: rotate(-10deg) scale(1.2);
-    -ms-transform: rotate(-10deg) scale(1.2);
-    -o-transform: rotate(-10deg) scale(1.2);
-}
-
-
-.FPSVG{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5vw;
-    fill: #f3f3fb;
+    min-height: 100vh;
+    /* background: transparent; */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,81,235,1) 0%, rgba(46,106,200,1) 50%, rgba(22,211,251,1) 100%);
 }
 
 .custom-nav{
@@ -39,26 +18,9 @@
     border: 1px solid blue;
 }
 
-.fp-col{
-    margin-top: 100px;
-    padding: 35px;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300&display=swap');
 
-
-.fly{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 50px;
-    text-align: left;
-}
-
-.fly-text{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 10px;
-}
 
 .box-sign-up{
     background-color: white;
@@ -314,3 +276,68 @@ body{
   ::-webkit-scrollbar-corner {
     background: transparent;
   }
+
+
+  .fly{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* font-size: 50px; */
+    text-align: left;
+}
+
+.fly-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* font-size: 10px; */
+}
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+    .fp-col{
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .box-sign-up{
+        width: 90%;
+    }
+    .fly{
+        font-size: 50px;
+    }
+    
+    .fly-text{
+        font-size: 10px;
+    }
+   }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+        .fp-col{
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .box-sign-up{
+            width: 80%;
+        }
+        .fly{
+            font-size: 50px;
+        }
+        
+        .fly-text{
+            font-size: 15px;
+        }
+   }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .fp-col{
+        margin-top: 100px;
+        padding: 35px;
+    }
+    .fly{
+        font-size: 50px;
+    }
+    
+    .fly-text{
+        font-size: 10px;
+    }
+   }
