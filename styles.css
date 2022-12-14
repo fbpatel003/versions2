@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 100vw;
+  width: 99.5vw;
   padding: 0%;
   margin: 0%;
 }
@@ -52,6 +52,7 @@ body {
 }
 
 .firstPage {
+    height: auto;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
   background: linear-gradient(
@@ -120,6 +121,7 @@ body {
 }
 
 .secondPage {
+    height: auto;
   margin-top: -15vh;
   padding-top: 100px;
   -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
@@ -137,11 +139,13 @@ body {
 }
 
 .thirdPage {
+    height: auto;
   margin-top: 70px;
   background-color: white;
 }
 
 .fourthPage {
+    height: auto;
   background-color: #f3f3fb;
   -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
   clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
@@ -156,6 +160,7 @@ body {
 }
 
 .sixthPage {
+    height: auto;
   background-color: #f3f3fb;
   -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
   clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
@@ -177,6 +182,7 @@ body {
 }
 
 .seventhPage {
+    height: auto;
   overflow: hidden;
   background-color: white;
 }
@@ -204,8 +210,11 @@ body {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    body{
+        width: 100vw;
+    }
   .firstPage {
-    height: 90vh;
+    min-height: 90vh;
   }
   .fp-col {
     margin-top: 50px;
@@ -222,7 +231,7 @@ body {
     font-size: 15px;
   }
   .secondPage {
-    height: 110vh;
+    min-height: 110vh;
   }
   .mobile_thirdPage {
     width: 60%;
@@ -230,14 +239,14 @@ body {
     margin-left: 15%;
   }
   .thirdPage {
-    height: 100vh;
+    min-height: 100vh;
   }
   .fourthPage {
-    height: 130vh;
+    min-height: 130vh;
     padding-top: 200px;
   }
   .sixthPage {
-    height: 130vh;
+    min-height: 130vh;
     padding-top: 200px;
   }
   .planBox {
@@ -245,22 +254,25 @@ body {
     width: 85%;
   }
   .seventhPage {
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
   }
   .eighthPage {
-    height: 110vh;
+    min-height: 110vh;
     padding-top: 120px;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    body{
+        width: 100vw;
+    }
   .firstPage {
-    height: 90vh;
+    min-height: 90vh;
   }
   .fp-col {
     margin-top: 50px;
@@ -278,21 +290,21 @@ body {
     font-size: 15px;
   }
   .secondPage {
-    height: 90vh;
+    min-height: 90vh;
   }
   .mobile_thirdPage {
     width: 100%;
     margin: auto;
   }
   .thirdPage {
-    height: 50vh;
+    min-height: 50vh;
   }
   .fourthPage {
-    height: 80vh;
+    min-height: 80vh;
     padding-top: 200px;
   }
   .sixthPage {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 200px;
   }
   .planBox {
@@ -300,22 +312,25 @@ body {
     width: 90%;
   }
   .seventhPage {
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
     margin: auto;
   }
   .eighthPage {
-    height: 75vh;
+    min-height: 75vh;
     padding-top: 120px;
   }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    body{
+        width: 99.5vw;
+    }
   .firstPage {
-    height: 100vh;
+    min-height: 100vh;
   }
   .fp-col {
     margin-top: 100px;
@@ -329,21 +344,21 @@ body {
     font-size: 10px;
   }
   .secondPage {
-    height: 130vh;
+    min-height: 130vh;
   }
   .mobile_thirdPage {
     width: 70%;
     margin-left: 20px;
   }
   .thirdPage {
-    height: 70vh;
+    min-height: 70vh;
   }
   .fourthPage {
-    height: 110vh;
+    min-height: 110vh;
     padding-top: 150px;
   }
   .sixthPage {
-    height: 130vh;
+    min-height: 130vh;
     padding-top: 150px;
   }
   .planBox {
@@ -351,14 +366,14 @@ body {
     width: 80%;
   }
   .seventhPage {
-    height: 85vh;
+    min-height: 85vh;
     width: 100%;
     padding-left: 20%;
     padding-right: 20%;
     margin: auto;
   }
   .eighthPage {
-    height: 120vh;
+    min-height: 120vh;
     padding-top: 70px;
   }
 }
