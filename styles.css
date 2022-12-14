@@ -1,38 +1,6 @@
 
 
 
-.eighthPage {
-  height: 100vh;
-}
-
-.eighthPage::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    45deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(132, 81, 235, 1) 0%,
-    rgba(46, 106, 200, 1) 50%,
-    rgba(22, 211, 251, 1) 100%
-  );
-  background-size: 100% 120%;
-  transform: rotate(-10deg) scale(1.2);
-  z-index: -1;
-  -webkit-transform: rotate(-5deg) scale(1.2);
-  -moz-transform: rotate(-10deg) scale(1.2);
-  -ms-transform: rotate(-10deg) scale(1.2);
-  -o-transform: rotate(-10deg) scale(1.2);
-}
-
-.fly-2 {
-  font-size: 30px;
-}
-
-.ep-col {
-  vertical-align: middle;
-}
 
 .ninthPage {
   padding-top: 100px;
@@ -192,19 +160,14 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
   }
 
   .sixthPage {
-    /* height: 100vh; */
-    /* height: auto; */
-    /* margin-top: 100px; */
     background-color: #f3f3fb;
     -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
   }
   
   .planBox {
-    /* width: 80%; */
     margin: auto;
     background-color: white;
-    /* margin-top: 100px; */
     padding: 3%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
@@ -221,6 +184,29 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     overflow: hidden;
     background-color: white;
   }
+
+  .eighthPage {
+    height: auto;
+    background: linear-gradient(
+      45deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(132, 81, 235, 1) 0%,
+      rgba(46, 106, 200, 1) 50%,
+      rgba(22, 211, 251, 1) 100%
+    );
+    -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
+clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
+
+  }
+  
+  .fly-2 {
+    font-size: 30px;
+  }
+  
+  .ep-col {
+    vertical-align: middle;
+  }
+  
 
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -266,11 +252,15 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     width: 85%;
 }
 .seventhPage{
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     margin: auto;
+}
+.eighthPage{
+    height: 110vh;
+    padding-top: 120px;
 }
 }
 
@@ -317,12 +307,17 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     width: 90%;
 }
 .seventhPage{
-    height: 75vh;
+    height: 60vh;
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
     margin: auto;
 }
+.eighthPage{
+    height: 75vh;
+    padding-top: 120px;
+}
+
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -369,5 +364,9 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     padding-left: 20%;
     padding-right: 20%;
     margin: auto;
+}
+.eighthPage{
+    height: 120vh;
+    padding-top: 70px;
 }
 }
