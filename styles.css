@@ -1,42 +1,5 @@
 
 
-.sixthPage {
-  height: 100vh;
-  margin-top: 100px;
-}
-
-.sixthPage::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #f3f3fb;
-  background-size: 100% 120%;
-  transform: rotate(-10deg) scale(1.2);
-  z-index: -1;
-  -webkit-transform: rotate(-5deg) scale(1.2);
-  -moz-transform: rotate(-10deg) scale(1.2);
-  -ms-transform: rotate(-10deg) scale(1.2);
-  -o-transform: rotate(-10deg) scale(1.2);
-}
-
-.planBox {
-  width: 80%;
-  margin: auto;
-  background-color: white;
-  margin-top: 100px;
-  padding: 3%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.planBox:hover {
-  box-shadow: rgba(125, 181, 255, 0.25) 0px 54px 55px,
-    rgba(122, 213, 255, 0.12) 0px -12px 30px,
-    rgba(90, 255, 255, 0.12) 0px 4px 6px,
-    rgba(116, 239, 255, 0.17) 0px 12px 13px,
-    rgba(105, 255, 243, 0.09) 0px -3px 5px;
-}
-
 .seventhPage {
   height: 100vh;
   margin-top: 100px;
@@ -248,6 +211,31 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     background-color: white;
   }
 
+  .sixthPage {
+    /* height: 100vh; */
+    /* height: auto; */
+    /* margin-top: 100px; */
+    background-color: #f3f3fb;
+    -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
+  }
+  
+  .planBox {
+    /* width: 80%; */
+    margin: auto;
+    background-color: white;
+    /* margin-top: 100px; */
+    padding: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .planBox:hover {
+    box-shadow: rgba(125, 181, 255, 0.25) 0px 54px 55px,
+      rgba(122, 213, 255, 0.12) 0px -12px 30px,
+      rgba(90, 255, 255, 0.12) 0px 4px 6px,
+      rgba(116, 239, 255, 0.17) 0px 12px 13px,
+      rgba(105, 255, 243, 0.09) 0px -3px 5px;
+  }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -283,7 +271,14 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
         height: 130vh;
         padding-top: 200px;
     }
-
+.sixthPage{
+    height: 130vh;
+    padding-top: 200px;
+}
+.planBox{
+    margin-top: 25px;
+    width: 85%;
+}
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -320,6 +315,14 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     height: 80vh;
     padding-top: 200px;
 }
+.sixthPage{
+    height: 100vh;
+    padding-top: 200px;
+}
+.planBox{
+    margin-top: 25px;
+    width: 90%;
+}
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -345,11 +348,19 @@ clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
     width: 70%;
     margin-left: 20px;
     }
-    .thirdPage{
-        height: 70vh;
-    }
-    .fourthPage{
-        height: 110vh;
-        padding-top: 150px;
-    }
+.thirdPage{
+    height: 70vh;
+}
+.fourthPage{
+    height: 110vh;
+    padding-top: 150px;
+}
+.sixthPage{
+    height: 130vh;
+    padding-top: 150px;
+}
+.planBox{
+    margin-top: 50px;
+    width: 80%;
+}
 }
