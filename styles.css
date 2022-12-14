@@ -1,23 +1,4 @@
 
-.thirdPage {
-  height: 100vh;
-  margin-top: 100px;
-}
-
-.thirdPage::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  background-size: 100% 120%;
-  transform: rotate(-10deg) scale(1.2);
-  z-index: -1;
-  -webkit-transform: rotate(-5deg) scale(1.2);
-  -moz-transform: rotate(-10deg) scale(1.2);
-  -ms-transform: rotate(-10deg) scale(1.2);
-  -o-transform: rotate(-10deg) scale(1.2);
-}
 
 .fourthPage {
   height: 100vh;
@@ -203,8 +184,6 @@ body {
 }
 
 .firstPage {
-    /* min-height: 100vh; */
-    /* background: transparent; */
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     background: linear-gradient(
@@ -264,20 +243,16 @@ body {
 .fly {
   font-family: "Poppins", sans-serif;
   color: white;
-  /* font-size: 50px; */
   text-align: left;
 }
 
 .fly-text {
   font-family: "Poppins", sans-serif;
   color: white;
-  /* font-size: 10px; */
 }
 
 
 .secondPage {
-    /* background: transparent; */
-    /* margin-top: 50px; */
     margin-top: -15vh;
     padding-top: 100px;
     -webkit-clip-path: polygon(0 14%, 100% 0%, 100% 85%, 0% 100%);
@@ -294,6 +269,12 @@ background-color: #f3f3fb;
     width: 50px;
     height: auto;
   }
+
+  .thirdPage {
+    margin-top: 70px;
+    background-color: white;
+  }  
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -317,6 +298,14 @@ background-color: #f3f3fb;
   .secondPage{
     height: 110vh;
   }
+  .mobile_thirdPage{
+    width: 60%;
+    margin: auto;
+    margin-left: 15%;
+    }
+    .thirdPage{
+        height: auto;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -342,6 +331,13 @@ background-color: #f3f3fb;
   .secondPage{
     height: 90vh;
   }
+  .mobile_thirdPage{
+    width: 100%;
+    margin: auto;
+  }
+  .thirdPage{
+    height: 50vh;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -363,4 +359,11 @@ background-color: #f3f3fb;
   .secondPage{
     height: 130vh;
   }
+  .mobile_thirdPage{
+    width: 70%;
+    margin-left: 20px;
+    }
+    .thirdPage{
+        height: auto;
+    }
 }
